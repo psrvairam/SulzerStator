@@ -1,0 +1,45 @@
+/ File opened for write Tue Apr  3 16:25:36 2018.
+ 
+*** LISTING "default_id" FILES IN DIRECTORY:
+    .
+ 
+    default_id.msh
+    default_id.jou
+    default_id.trn
+    default_id.dbs
+    default_id.lok
+Copyright(c) 1988-2018, Fluent Inc. All rights reserved.
+http://www.fluent.com
+ 
+Gambit incorporates Simulation Modeling Suite(TM) software by Simmetrix Inc.
+ 
+Portions of this software are owned by Parametric Technology Corporation.
+Copyright(c) 2002. All Rights Reserved.
+ 
+Portions of this software are owned by Unigraphics Solutions Corporation or its subsidiaries.
+Copyright(c) 2004. All Rights Reserved.
+ 
+Spatial Indexing Library version 0.81b (beta) provided under GNU Lesser General Public License
+(http://www.gnu.org/copyleft/lesser.html)
+ 
+Command> face delete "face.1" lowertopology onlymesh
+Mesh removed from face face.1:   mesh faces = 6798.
+Command> face delete "face.1" lowertopology
+Deleted face: face.1
+Command> import uns \
+  "/home/puja/Code/Blade-MeshGen/Sulzer/hopefullyworking/Blade-MeshGen/Sulzer/output8.msh" \
+  angle 135 d2 scale 1 mtolerance 1e-06
+Reading |utility fe2ram -m1e-06 -d2 -tRAMPANT -oFIDAP7 /home/puja/Code/Blade-MeshGen/Sulzer/hopefullyworking/Blade-MeshGen/Sulzer/output8.msh (feature angle = 135) ... 
+  read 11306 nodes, 14898 elements, and 7 element groups.
+created 5 vertices, 5 edges, 1 face, and 0 volumes.
+Done.
+ 
+Command> end
+/ File closed at Tue Apr  3 16:38:09 2018, 0.92 cpu second(s), 10111864 maximum memory.
+Total of 1.04 cpu second(s), 10111864 maximum memory.
+Total of 0.56 cpu second(s), 4492208 maximum memory.
+Total of 0.69 cpu second(s), 4492512 maximum memory.
+Total of 5.18 cpu second(s), 16723104 maximum memory.
+Total of 0.98 cpu second(s), 11062952 maximum memory.
+Total of 1.17 cpu second(s), 4492208 maximum memory.
+Total of 0.33 cpu second(s), 4492208 maximum memory.
