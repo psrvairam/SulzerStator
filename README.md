@@ -1,0 +1,2 @@
+# SulzerStator
+mesh files
